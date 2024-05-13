@@ -17,3 +17,12 @@ function showSlides() {
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+document.addEventListener('DOMContentLoaded', createNavbar);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const postWriteBtn = document.getElementById('postWriteBtn');
+    postWriteBtn.addEventListener('click', () => {
+      window.location.href = '../Post/PostWrite.html';
+    });
+  });
