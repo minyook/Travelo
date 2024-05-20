@@ -147,3 +147,51 @@ button {
 .btn-6 span:hover:after {
   width: 100%;
 }
+
+.Post-Write {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Post-Write input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+#post-body {
+  height: 300px;
+}
+
+#post-body::placeholder {
+  text-align: start;
+}
+
+.Post-Write input[type="file"] {
+  margin: 10px 0;
+}
+
+.Post-Write button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0 0 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Post-Write button:hover {
+  background-color: #0056b3;
+}
